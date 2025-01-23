@@ -169,7 +169,6 @@ a {
     --metallic-blue: #34547A;
     --padding: 80px 0 80px;
     --nickel: #727272;
-
 }
 
 .metalick-blue {
@@ -275,7 +274,6 @@ p {
     flex-direction: row;
     align-items: center;
     color: var(--white-color);
-
 }
 
 .section3-descriptions-text {

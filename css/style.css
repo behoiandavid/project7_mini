@@ -316,6 +316,10 @@ p {
     text-align: center;
 }
 
+.images {
+    position: relative;
+}
+
 .images img {
     width: 1070px;
     height: 600px;
@@ -326,8 +330,8 @@ p {
     width: 70px;
     height: 70px;
     position: absolute;
-    margin-top: 250px;
-    margin-left: 470px;
+    top: 250px;
+    left: 470px;
 }
 
 .footer {

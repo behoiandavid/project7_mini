@@ -322,14 +322,17 @@ p {
     width: 1070px;
     height: 600px;
 }
+.images {
+    position: relative;
+}
 
 .images::before {
     content: url(../images/vector2.png);
     width: 70px;
     height: 70px;
     position: absolute;
-    margin-top: 250px;
-    margin-left: 470px;
+    top: 250px;
+    left: 470px;
 }
 
 .footer {

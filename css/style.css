@@ -322,17 +322,20 @@ p {
     width: 1070px;
     height: 600px;
 }
+
 .images {
     position: relative;
 }
 
 .images::before {
-    content: url(../images/vector2.png);
-    width: 70px;
-    height: 70px;
-    position: absolute;
-    top: 250px;
-    left: 470px;
+    content: '';
+    width: 90px !important;
+    height: 90px !important;
+    position: absolute !important;
+    top: calc(-57% + 600px);
+    left: calc(-67% + 1200px);
+    background: url('/images/vector2.png') no-repeat center center !important;
+    background-size: contain !important;
 }
 
 .footer {

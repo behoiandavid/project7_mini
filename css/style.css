@@ -329,13 +329,13 @@ p {
 
 .images::before {
     content: '';
-    width: 90px !important;
-    height: 90px !important;
-    position: absolute !important;
-    top: calc(-57% + 600px);
-    left: calc(-67% + 1200px);
-    background: url('/images/vector2.png') no-repeat center center !important;
-    background-size: contain !important;
+    width: 100px ;
+    height: 100px ;
+    position: absolute ;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    background: url('/images/vector2.png') no-repeat center center ;
+    background-size: contain;
 }
 
 .footer {

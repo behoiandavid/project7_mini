@@ -169,8 +169,11 @@ a {
     --metallic-blue: #34547A;
     --padding: 80px 0 80px;
     --nickel: #727272;
+<<<<<<< HEAD
     --paddingtablet: 4%;
 
+=======
+>>>>>>> 8f0726751b6ced767c3a93298777e13f6896a006
 }
 
 .metalick-blue {
@@ -280,7 +283,6 @@ p {
     flex-direction: row;
     align-items: center;
     color: var(--white-color);
-
 }
 
 .section3-descriptions-text {
@@ -323,6 +325,10 @@ p {
     text-align: center;
 }
 
+.images {
+    position: relative;
+}
+
 .images img {
     width: 1070px;
     height: 600px;
@@ -334,12 +340,21 @@ p {
 
 .images::before {
     content: '';
+<<<<<<< HEAD
     width: 100px;
     height: 100px;
     position: absolute;
     top: calc(50% - 50px);
     left: calc(50% - 50px);
     background: url('/images/vector2.png') no-repeat center center;
+=======
+    width: 100px ;
+    height: 100px ;
+    position: absolute ;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    background: url('/images/vector2.png') no-repeat center center ;
+>>>>>>> 8f0726751b6ced767c3a93298777e13f6896a006
     background-size: contain;
 }
 
@@ -368,6 +383,7 @@ p {
     padding: 1% 0 1%;
     opacity: 0.7;
 }
+<<<<<<< HEAD
 
 svg {
     width: 20px;
@@ -738,3 +754,5 @@ svg {
         opacity: 0.7;
     }
 }
+=======
+>>>>>>> 8f0726751b6ced767c3a93298777e13f6896a006

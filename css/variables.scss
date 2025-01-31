@@ -1,0 +1,13 @@
+// Файл: _variables.scss
+$primary-color: #34547A;
+$bg-color: #EEEFF1;
+$black-color: #000000;
+
+$colors: (
+    metallic-blue: $primary-color,
+    bc-color: $bg-color,
+    black-color: $black-color
+);
+
+// Экспортируем переменные
+@forward "variables";

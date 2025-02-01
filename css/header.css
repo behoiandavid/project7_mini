@@ -1,0 +1,79 @@
+a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Roboto sans-serif;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+}
+
+.mobile-navigation {
+  display: none;
+}
+
+.header-nav-description :first-child a {
+  color: #34547A;
+}
+
+.header-nav-description {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 50px;
+  font: Roboto sans-serif;
+  padding: 80px 0 80px;
+  background-color: #EEEFF1;
+}
+
+.bc-gray {
+  background: #EEEFF1;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .container {
+    max-width: 600px;
+    padding: 4%;
+  }
+  .header-nav-description {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 28px;
+    font: Roboto sans-serif;
+    padding: 4%;
+    background-color: #EEEFF1;
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 599px) {
+  .nav {
+    display: none;
+  }
+  .mobile-navigation {
+    display: block;
+    position: relative;
+  }
+  .nav-mobile {
+    display: none;
+    position: relative;
+    left: 50px;
+  }
+  .checkbtn {
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+  }
+  #check:checked ~ .nav-mobile {
+    display: block;
+  }
+  .container {
+    max-width: 600px;
+    padding: 4%;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

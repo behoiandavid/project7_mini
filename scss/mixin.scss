@@ -1,0 +1,9 @@
+@mixin p {
+    color: $nickel;
+    width: 540px;
+    font-size: $font-size;
+    font-weight: 400;
+    line-height: 26.25px;
+    padding: $padding;
+    font-family: $font;
+}

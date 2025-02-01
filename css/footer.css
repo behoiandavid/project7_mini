@@ -1,0 +1,49 @@
+.footer span {
+  color: #FFFFFF;
+}
+
+.footer :first-child {
+  font-size: 13px;
+  font-weight: 21.33px;
+  padding-top: 3%;
+  line-height: 24.61px;
+}
+
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer :last-child {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21.33px;
+  padding: 1% 0 1%;
+  opacity: 0.7;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  footer .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .footer :first-child {
+    font-size: 11px;
+    font-weight: 21.33px;
+    padding-top: 3%;
+    line-height: 21.33px;
+  }
+  .footer :last-child {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21.33px;
+    padding: 1% 0 1%;
+    opacity: 0.7;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

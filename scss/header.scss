@@ -1,0 +1,92 @@
+@import "./variables.scss";
+
+a {
+    text-decoration: none;
+    color: $textcolor;
+    font-family: $font;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+.mobile-navigation {
+    display: none;
+}
+
+.header-nav-description :first-child a {
+    color: $metallicblue;
+}
+
+
+.header-nav-description {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: $gap;
+    font: $font;
+    padding: $padding;
+    background-color: $bccolor;
+}
+
+.bc-gray {
+    background: $bccolor;
+}
+
+@media (min-width: 600px) and (max-width:1023px) {
+
+    .container {
+        max-width: 600px;
+        padding: $paddingtablet;
+    }
+
+
+    .header-nav-description {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 28px;
+        font: $font;
+        padding: $paddingtablet;
+        background-color: $bccolor;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:320px) and (max-width:599px) {
+
+    .nav {
+        display: none;
+    }
+
+    .mobile-navigation {
+        display: block;
+        position: relative;
+    }
+
+    .nav-mobile {
+        display: none;
+        position: relative;
+        left: 50px;
+
+    }
+
+    .checkbtn {
+        font-size: 1.5em;
+        color: white;
+        cursor: pointer;
+    }
+
+    #check:checked~.nav-mobile {
+        display: block;
+    }
+
+    .container {
+        max-width: 600px;
+        padding: $paddingtablet;
+    }
+
+}

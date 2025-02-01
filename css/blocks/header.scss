@@ -1,8 +1,0 @@
-// Файл: blocks/_header.scss
-@use "../variables" as *; // Подключаем переменные
-
-.header {
-    background-color: $primary-color;
-    color: white;
-    padding: 20px;
-}
